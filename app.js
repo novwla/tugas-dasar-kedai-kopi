@@ -27,7 +27,6 @@ console.log("=== SISTEM POIN MEMBER KEDAI KOPI ===");
 // TODO 1: Tulis satu baris console.log() untuk memastikan file app.js sudah terhubung!
 // Contoh output: "Skrip app.js berhasil terhubung!"
 
-
 console.log("Skrip app.js berhasil terhubung!");
 
 // ============================================================
@@ -46,7 +45,7 @@ console.log("Kasir  : " + namaKasir);
 
 // ---- DEMO PERBEDAAN LET vs CONST ----
 // TODO 2B:
-namaKasir = "Kak Rizki";
+namaKasir = "Kak Wovel";
 console.log("Kasir Baru (setelah diubah dengan let): " + namaKasir);
 
 
@@ -54,7 +53,7 @@ console.log("Kasir Baru (setelah diubah dengan let): " + namaKasir);
 
 // ---- BAGIAN 2B: INPUT INTERAKTIF & PENGANDAIAN DASAR ----
 // TODO 2C:
-alert("Selamat datang di " + NAMA_KEDAI + "!");
+console.log("Selamat datang di " + NAMA_KEDAI + "!");
 let namaPelanggan = prompt("Halo! Masukkan nama kamu untuk mulai transaksi:");
 
 if (namaPelanggan) {
